@@ -1,5 +1,5 @@
 import { HugeiconsIcon } from "@hugeicons/react";
-import { type Route } from "./+types/_landing.pricing";
+import type { Route } from "./+types/_landing.pricing";
 import {
   ArrowUpRight,
   BadgeCheck,

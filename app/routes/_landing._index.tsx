@@ -1,4 +1,4 @@
-import { type Route } from "./+types/_landing._index";
+import type { Route } from "./+types/_landing._index";
 import {
   ArrowUpRight,
   Facebook,

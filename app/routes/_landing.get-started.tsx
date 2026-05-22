@@ -1,5 +1,5 @@
 import { Outlet } from "react-router";
-import { type Route } from "./+types/_landing.get-started";
+import type { Route } from "./+types/_landing.get-started";
 import Button from "~/components/common/Button";
 
 export function meta({}: Route.MetaArgs): Route.MetaDescriptors {

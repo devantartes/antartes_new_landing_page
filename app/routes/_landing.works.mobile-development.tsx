@@ -1,4 +1,4 @@
-import { type Route } from "./+types/_landing.works.mobile-development";
+import type { Route } from "./+types/_landing.works.mobile-development";
 import {
   ArrowUpRight,
   Facebook,

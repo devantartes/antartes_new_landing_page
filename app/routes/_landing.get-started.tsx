@@ -4,8 +4,8 @@ import Button from "~/components/common/Button";
 
 export function meta({}: Route.MetaArgs): Route.MetaDescriptors {
   return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
+    { title: "Get Started | Antartes" },
+    { name: "description", content: "Work with us. Let's build the future of your brand. You'll hear from our team within 24 hours." },
   ];
 }
 

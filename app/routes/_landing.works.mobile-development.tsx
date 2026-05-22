@@ -24,8 +24,8 @@ import Badge from "~/components/common/Badge";
 
 export function meta({}: Route.MetaArgs): Route.MetaDescriptors {
   return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
+    { title: "Mobile App Development | Works | Antartes" },
+    { name: "description", content: "Discover how we architected a mobile bank that captured 50,000 users in its first month." },
   ];
 }
 

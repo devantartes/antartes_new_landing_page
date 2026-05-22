@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans:
+    "Inter", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --color-primary: #7ffbae;
+  --color-background: #121010;
+  --color-foreground: #0d0c0c;
+  --color-border: #363434;
+
+  --animate-marquee: marquee 20s linear infinite;
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+}
+
+html,
+body {
+  @media (prefers-color-scheme: dark) {
+    color-scheme: dark;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-[url("/transparent.png")] bg-no-repeat dark:bg-gray-950;
+  background-clip: border-box;
+  background-size: 100%;
+}
